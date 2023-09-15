@@ -3,7 +3,7 @@ module.exports = {
     host: "localhost",
     username: "aluno_medio",
     password: "@lunoSenai23.",
-    database: "sequelize-node",
+    database: "sequelize_node",
     define: {
         timestamps: true, 
         underscored: true

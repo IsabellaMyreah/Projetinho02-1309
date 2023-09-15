@@ -1,7 +1,16 @@
+const { BLOB } = require("sequelize");
 const Sequelize = require("sequelize"); //Importando o sequelize
 
 const dbConfig = require("../config/database"); //Importano o arquivo de configuração do banco de dados
 
+const User = require("../models/User"); //Importando o modelo da tabela de users
+
 const connection = new Sequelize(dbConfig); // Criando a conexão com o banco de dados 
 
+User.init(connection) //Inicializando a conexão com o banco de dados
+
 module.exports = connection; // Exportando a conexão com o banco de dados isabella myreah lopes cavalcante 
+
+
+//models: representação de uma tabela no banco de dados
+ 
