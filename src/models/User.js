@@ -1,4 +1,4 @@
-const { Model, DataTypes } = require(sequelize); 
+const { Model, DataTypes } = require("sequelize"); 
 
 // class User = Tabela de Usuários no banco de dados
 // extends Model = Faz referência ao modelo da tabela no banco de dados

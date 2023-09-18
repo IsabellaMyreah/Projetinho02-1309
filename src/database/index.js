@@ -1,4 +1,3 @@
-const { BLOB } = require("sequelize");
 const Sequelize = require("sequelize"); //Importando o sequelize
 
 const dbConfig = require("../config/database"); //Importano o arquivo de configuração do banco de dados

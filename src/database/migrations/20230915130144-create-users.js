@@ -18,7 +18,7 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
-      create_at: {
+      created_at: {
         type: Sequelize.DATE,
         allowNull: false
       },
@@ -30,16 +30,7 @@ module.exports = {
     });
   },
 
-
-
-
-
   async down (queryInterface, Sequelize) {
-    /**
-     * Add reverting commands here.
-     *
-     * Example:
-     * await queryInterface.dropTable('users');
-     */
+    await queryInterface.dropTable('users');
   }
 };
